@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+/* Estilos para el jumbotron */
+#jumbotron {
+    background-color: #347ac0;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .jumbotron-inner {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .jumbotron-inner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron-inner p {
+    font-size: 18px;
+  }
+  
+
+/* NAVBAR */
+
+  /* Estilos para el navbar */
+/* Estilos para el navbar */
+#navBar {
+    background-color: #F9F7F7; /* Color de fondo del navbar */
+    padding: 20px; /* Espaciado interno del navbar */
+    display: flex; /* Utilizar un layout de tipo flexbox */
+    justify-content: space-between; /* Distribuir los elementos equitativamente a lo largo del navbar */
+    font-family: 'Montserrat', sans-serif; /* Tipografía para el navbar */
+    border-bottom: 2px solid #E0E0E0; /* Línea divisoria bajo el navbar */
+}
+
+/* Estilos para los enlaces del navbar */
+#navBar a {
+    color: #333; /* Color del texto de los enlaces */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+    font-size: 18px; /* Tamaño del texto de los enlaces */
+    transition: color 0.7s ease; /* Animación de transición para el color */
+}
+
+/* Estilos para el enlace activo */
+#navBar a:hover {
+    color: #FF5733; /* Color del texto al pasar el ratón sobre el enlace */
+    border: brown 10px solid;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+/* Estilos para el último enlace del navbar */
+#navBar .ultimo-enlace {
+    padding: 10px 20px; /* Espaciado interno del último enlace */
+    border-radius: 30px; /* Borde redondeado del último enlace */
+    background-color: #FF5733; /* Color de fondo del último enlace */
+    color: white; /* Color del texto del último enlace */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Animación de transición para el color de fondo */
+}
+
+/* Estilos para el último enlace al pasar el ratón sobre él */
+#navBar .ultimo-enlace:hover {
+    background-color: #FF8C66; /* Cambio de color de fondo al pasar el ratón sobre el último enlace */
+}
+
+
+
+
+
+
+
+/* estilos tarjetas:*/
+
+#productosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F9F7F7;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #E0E0E0;
+
+}
+/* Estilos para las cards de productos */
+.card {
+    border: 1px solid #ccc; /* Borde de la card */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px; /* Margen exterior */
+    width: 300px; /* Ancho de la card */
+    text-align: center; /* Centrar contenido */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Borde redondeado para la imagen */
+    margin-bottom: 10px; /* Margen inferior */
+
+}
+
+.card h2 {
+    font-size: 1.5em; /* Tamaño del título */
+    color: #333; /* Color del texto */
+}
+
+.card p {
+    color: #666; /* Color del texto secundario */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.card .btn-comprar {
+    background-color: #FF5733; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.card .btn-comprar:hover {
+    background-color: #FF8C66; /* Cambio de color de fondo al pasar el ratón */
+}
